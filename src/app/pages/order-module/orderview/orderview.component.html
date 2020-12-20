@@ -1,0 +1,22 @@
+<div class="items">
+    <div class="restaurant">
+      <div class="child">
+        <h1 class="title">{{restaurants[id].name}}</h1>
+        <div class="address">{{restaurants[id].address}}</div>
+        
+      </div>
+    </div>
+    <div class="order-items">
+      <div class="child">
+        <p class="title">Order Now<p> 
+          <div class="child1">
+          <div *ngFor="let r of restaurant">  
+          <app-orderitem
+          name="{{r.name}}"
+          desc="{{r.desc}}"
+          price="{{r.price}}"></app-orderitem>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>div>

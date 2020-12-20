@@ -1,0 +1,21 @@
+.restaurant-list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  .child {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .wrap-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+   .restaurant-list-container
+   {
+     width: 100vw;
+     height: 100vh;
+   }

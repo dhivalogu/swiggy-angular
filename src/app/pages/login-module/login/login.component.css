@@ -1,0 +1,28 @@
+
+.container-fluid { 
+    margin: auto;
+   width: 100vw;
+   max-height: 100vh;
+  overflow: hidden;
+    }
+
+  .row
+  {
+     min-height: 30%;
+  }
+  .img-fluid:hover {
+    transform: scale(1.5);
+  }
+  .input
+  {
+    display: block;
+  }
+  @media only screen and (max-width: 1026px) {
+    .col-9 {
+        display: none;
+    }
+  }
+a
+{
+  text-decoration: none;
+}

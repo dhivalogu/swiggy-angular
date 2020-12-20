@@ -1,0 +1,20 @@
+<div class="hh">
+<app-header-component></app-header-component>
+</div>
+<br><br><br>
+
+<div class="restaurant-list-container">
+    <div class="restaurant-list-wrapper child">
+      <div *ngFor="let restaurant of restaurants">
+          <div><a href="/orders/{{restaurant.id}}">
+            <app-restaurant-card
+        name="{{restaurant.name}}"
+        image="{{restaurant.feature_image}}"
+        cuisines="{{restaurant.cuisines}}"
+        rating="{{restaurant.rating}}"
+        reviews="{{restaurant.reviews}}"
+        ></app-restaurant-card></a>
+          </div>
+        </div>
+    </div>
+  </div>

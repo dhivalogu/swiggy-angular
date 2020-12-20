@@ -1,0 +1,39 @@
+.items {
+    flex-basis: 75%;
+    min-width: 70vw;
+  }
+  
+  .restaurant {
+    background-color: #332323;
+    color: white;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .restaurant .title {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .restaurant .child {
+    font-weight: bold;
+  }
+  
+  .restaurant .address {
+    font-size: 14px;
+  }
+  
+  .order-items .title {
+    margin: 30px 0 10px;
+    font-weight: bold;
+    font-size: 34px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    
+  }
+  .order-items .child1
+  {
+    padding-left: 80px;
+  }
